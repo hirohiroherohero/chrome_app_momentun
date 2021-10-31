@@ -16,4 +16,4 @@ const randomImage = images[Math.floor(Math.random() * images.length)];
 
 const body = document.body;
 
-body.style.backgroundImage = `url(../img/${randomImage})`;
+body.style.backgroundImage = `url(./img/${randomImage})`;
