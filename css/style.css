@@ -571,6 +571,9 @@ button {
   align-items: center;
   justify-content: space-around;
 }
+.weather-box #weather {
+  margin-right: 10px;
+}
 
 .todo-box {
   width: 100%;

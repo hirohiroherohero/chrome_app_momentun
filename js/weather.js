@@ -13,7 +13,7 @@ function onGeoSuccess(position) {
 
       weather.innerText = `${data.weather[0].main} / ${Math.round(
         data.main.temp
-      )}° `;
+      )}°`;
       city.innerText = data.name;
     });
 }
