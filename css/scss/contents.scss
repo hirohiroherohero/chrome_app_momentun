@@ -1,0 +1,54 @@
+.quotes-box {
+  padding: 15px 20px;
+  #quotes {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.clock-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.todo-box {
+  width: 100%;
+  & > div {
+    align-items: center;
+
+    #todo-form {
+      input {
+        height: 30px;
+        font-family: "Noto Sans KR", sans-serif;
+      }
+      button {
+        height: 30px;
+      }
+    }
+  }
+  #todo-list {
+    font-family: "Noto Sans KR", sans-serif;
+    li {
+      display: flex;
+      justify-content: space-between;
+      background: rgb(255, 255, 255);
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      span {
+        font-size: 18px;
+      }
+      button {
+        border: none;
+        background: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section id="login-section">
+      <div class="box">
+        <h2>Write your name!</h2>
+        <form id="login-form">
+          <input
+            type="text"
+            maxlength="20"
+            placeholder="English Name"
+            required
+          />
+          <button>LOGIN</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="momentum-section" class="hidden">
+      <div class="inner">
+        <div id="greethig-zone" class="box section-space">
+          <h2 id="greething"></h2>
+        </div>
+        <div class="flex-cl">
+          <div class="flex-end">
+            <div class="box section-space quotes-box">
+              <p id="quotes"></p>
+            </div>
+          </div>
+          <div class="flex-sb section-space">
+            <div class="box clock-box">
+              <p id="clock"></p>
+            </div>
+            <div class="box weather-box">
+              <p id="weather"></p>
+              <p id="city"></p>
+            </div>
+          </div>
+          <div class="box todo-box">
+            <div class="flex-sb">
+              <h3>To-Do List</h3>
+              <form id="todo-form">
+                <input type="text" required />
+                <button>Write</button>
+              </form>
+            </div>
+
+            <ul id="todo-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/login.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/todo.js"></script>
+  </body>
+</html>
